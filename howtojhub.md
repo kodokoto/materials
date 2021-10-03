@@ -36,11 +36,34 @@ Finally, we can run this code, by clicking on ![alt text][run_button] or by usin
 
 ![alt text][helloWorld]
 
-**NOTE:** You need to run the method declaration at least once, before you can run the method call. Else yopu will get the following error:
+**NOTE:** You need to run the method declaration at least once, before you can run the method call. Else yopu will get the following error when you run the method call:
 
 ![alt text][helloWorldError]
 
+# How to annotate your code in a Jupyter notebook
 
+In a Jupyter norebook, we use **Markdown**: a language that is commonly used for formatting text.
+
+To be able to use Markdon in a notebook, all you have to do is create a new cell, and change its type from **Code** to **Markdown**, by clicking on the dropdown menu, located at the toolbar. 
+
+![alt text][toolbar]
+
+From there I reccomend you check out this Markdown [cheatsheet][md_cheatsheet] to learn the basic syntax.
+
+![alt text][md_example]
+
+To see the text preview, simply run the cell
+
+![alt text][md_preview]
+
+# FAQ
+
+### **Why is there no Java option when selecting terminal?**
+
+
+This is most likely because you didn't select the right server instance. Recently those in charge of QMUL's Jhub server made functional programming as the default, and this has confused a lot of people.
+
+To fix this go to `File -> Hub Control Panel` in the menu bar, then click the big red button that says **Stop My server**, and then start it up again. From there you be asked to select the server instance and select **Procedural Programming**. From there you should be able to select Java as your kernel.
 
 
 
@@ -58,3 +81,7 @@ Finally, we can run this code, by clicking on ![alt text][run_button] or by usin
 [run_button]: https://media.discordapp.net/attachments/578327147974885388/894241888650035240/unknown.png
 [helloWorld]: https://media.discordapp.net/attachments/578327147974885388/894244055721062440/unknown.png
 [helloWorldError]: https://cdn.discordapp.com/attachments/578327147974885388/894245522930552842/unknown.png
+[toolbar]: https://images-ext-2.discordapp.net/external/gebVCSSrYy936nv68BLgzH_ozXYM7vvZxXN3-A9qWhU/https/media.discordapp.net/attachments/578327147974885388/894261667834249276/unknown.png
+[md_cheatsheet]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+[md_example]: https://media.discordapp.net/attachments/578327147974885388/894268222650593280/unknown.png
+[md_preview]: https://cdn.discordapp.com/attachments/578327147974885388/894268307476201482/unknown.png
